@@ -31,6 +31,7 @@
     "@ignite_ui/eslint_config": "*",
     "@ignite_ui/react": "*",
     "@ignite_ui/tokens": "*",
+    "@storybook/addon-a11y": "^6.5.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
