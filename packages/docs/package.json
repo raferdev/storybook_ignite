@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-storybook": "storybook-to-ghpages",
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
@@ -32,6 +32,7 @@
     "@ignite_ui/react": "*",
     "@ignite_ui/tokens": "*",
     "@storybook/addon-a11y": "^6.5.16",
+    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
