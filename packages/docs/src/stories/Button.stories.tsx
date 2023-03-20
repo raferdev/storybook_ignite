@@ -6,6 +6,11 @@ export default {
      component:Button,
      args: {
         children:'Send'
+     },
+     argTypes: {
+      onClick:{
+         action:'click'
+      }
      }
 
 } as Meta<ButtonProps>
