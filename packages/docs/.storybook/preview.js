@@ -8,7 +8,8 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  theme: themes.dark,
   docs: {
     themes:themes.dark
-  },
+  }
 }
