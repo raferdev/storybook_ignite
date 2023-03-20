@@ -7,6 +7,13 @@ export default {
      args:{
         src: "https://github.com/raferdev.png",
         alt: "Rafael Fernandes"
+     },
+     argTypes:{
+        src: {
+            control:{
+                type:'text'
+            }
+        }
      }
 } as Meta<AvatarProps>
 
