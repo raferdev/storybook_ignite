@@ -20,5 +20,6 @@ module.exports = {
     if(configType==='PRODUCTION') {
       config.base = '/storybook_ignite'
     }
+    return config
   }
 }
