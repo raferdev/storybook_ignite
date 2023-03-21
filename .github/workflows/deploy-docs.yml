@@ -8,9 +8,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: Ubuntu-latest
-      env:
-        TURBO_TOKEN: ${ { secrets.TURBO_TOKEN } }
-        TURBO_TEAM: ${ { secrets.TURBO_TEAM } }
+    env:
+      TURBO_TOKEN: ${ { secrets.TURBO_TOKEN } }
+      TURBO_TEAM: ${ { secrets.TURBO_TEAM } }
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
