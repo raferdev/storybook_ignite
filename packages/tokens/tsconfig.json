@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite_ui/ts_config/base.json",
+  "extends": "@raferdev_study/ts_config/base.json",
   "include": ["src"]
 }

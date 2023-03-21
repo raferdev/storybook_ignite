@@ -1,4 +1,4 @@
-import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@ignite_ui/tokens";
+import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from "@raferdev_study/tokens";
 import { createStitches, defaultThemeMap } from "@stitches/react";
 
 export const { styled,

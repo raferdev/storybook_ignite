@@ -1,4 +1,4 @@
-import { colors } from '@ignite_ui/tokens';
+import { colors } from '@raferdev_study/tokens';
 import {getContrast} from 'polished'
 
 export function ColorsGrid() {

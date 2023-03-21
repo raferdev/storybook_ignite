@@ -1,5 +1,5 @@
 {
-  "name": "@ignite_ui/eslint_config",
+  "name": "@raferdev_study/eslint_config",
   "license": "MIT",
   "private": true,
   "main": "index.js",

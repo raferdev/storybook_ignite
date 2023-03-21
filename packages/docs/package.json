@@ -1,5 +1,5 @@
 {
-  "name": "@ignite_ui/docs",
+  "name": "@raferdev_study/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.3",
-    "@ignite_ui/ts_config": "*",
+    "@raferdev_study/ts_config": "*",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -28,9 +28,9 @@
     "vite": "^4.2.0"
   },
   "dependencies": {
-    "@ignite_ui/eslint_config": "*",
-    "@ignite_ui/react": "*",
-    "@ignite_ui/tokens": "*",
+    "@raferdev_study/eslint_config": "*",
+    "@raferdev_study/react": "*",
+    "@raferdev_study/tokens": "*",
     "@storybook/addon-a11y": "^6.5.16",
     "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",

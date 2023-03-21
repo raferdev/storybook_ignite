@@ -1,4 +1,4 @@
-import { Avatar, AvatarProps } from "@ignite_ui/react";
+import { Avatar, AvatarProps } from "@raferdev_study/react";
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {

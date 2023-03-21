@@ -1,3 +1,3 @@
 {
-  "extends": "@ignite_ui/eslint_config"
+  "extends": "@raferdev_study/eslint_config"
 }
