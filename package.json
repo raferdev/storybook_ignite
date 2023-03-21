@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "changeset":"chengeset",
+    "changeset":"changeset",
     "version-packages":"changeset version",
     "release":"turbo run build --filter-@raferdev_study/docs && changeset publish"
   },
