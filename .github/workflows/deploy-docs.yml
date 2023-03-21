@@ -10,7 +10,7 @@ jobs:
     runs-on: Ubuntu-latest
     env:
       TURBO_TOKEN: ${ { secrets.TURBO_TOKEN } }
-      TURBO_TEAM: ${ { secrets.TURBO_TEAM } }
+      TURBO_TEAM: raferdev
 
     steps:
       - name: Checkout
@@ -19,7 +19,9 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
 
       - run: npm ci
 
