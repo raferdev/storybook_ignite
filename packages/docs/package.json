@@ -12,6 +12,7 @@
   },
   "keywords": [],
   "author": "",
+  "private": true,
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.3",
