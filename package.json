@@ -3,11 +3,15 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts":{
-    "dev":"turbo run dev --parallel",
-    "build":"turbo run build"
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "changeset":"chengeset",
+    "version-packages":"changeset version",
+    "release":"turbo run build --filter-@ignite_ui/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.0",
     "turbo": "^1.8.3"
   }
 }
