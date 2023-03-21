@@ -4,8 +4,8 @@ import { styled } from "../../styles/index.js";
 export const AvatarContainer = styled(Avatar.Root,{
     borderRadius:'$full',
     display:'inline-block',
-    width:'$12',
-    height:'$12',
+    width:'$16',
+    height:'$16',
     overflow:'hidden',
 })
 
